@@ -64,7 +64,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\brush-fill.svg" />
+    <Content Include="Assets\Icons\camera.svg" />
+    <Content Include="Assets\Icons\file-earmark-person.svg" />
     <Content Include="Assets\Images\angela-pencheva-t7OJtdwNFKw-unsplash.jpg" />
+    <Content Include="Assets\Images\danbo-1206478_1920.jpg" />
     <Content Include="Assets\Images\dea-piratedea-e9KxYQl2L3c-unsplash.jpg" />
     <Content Include="Assets\Images\elnaz-asadi-N1gqDai6A08-unsplash.jpg" />
     <Content Include="Assets\Images\jossuha-theophile-fp3Z_UIoIg8-unsplash.jpg" />
@@ -75,6 +79,7 @@
     <Content Include="Assets\Images\stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" />
     <Content Include="Assets\Images\thom-masat-h2ZTEoRz0wY-unsplash.jpg" />
     <Content Include="Assets\Images\visuals-2TS23o0-pUc-unsplash.jpg" />
+    <Content Include="Assets\Images\woman-5899198_1920.jpg" />
     <Content Include="Assets\Logo\Imago-logos.jpeg" />
     <Content Include="Assets\Logo\Imago-logos_black.png" />
     <Content Include="Assets\Logo\Imago-logos_transparent.png" />
@@ -95,6 +100,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
@@ -112,6 +118,7 @@
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

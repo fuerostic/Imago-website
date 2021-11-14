@@ -6,6 +6,10 @@
 <head runat="server">
     <meta name="viewport" content="with=device-width, initial-scale=1.0"/>
     <title>Welcome to Imago</title>
+
+
+    <link rel="stylesheet" href="Content/owl.carousel.min.css"/>
+
     <!-- bootstrap -->
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <!-- main css -->
@@ -16,7 +20,7 @@
 
     <!--Navbar section start  -->
     
-    <nav class="navbar navbar-expand-md ">
+    <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.aspx">Imago</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -67,10 +71,11 @@
     <!--Home section begin -->
 
 
-    <section class="home">
-        
-            
-                <div id="carouselExampleCaptions" class=" my-carousel carousel slide carousel-fade" data-bs-ride="carousel">
+    <section class="home d-flex">
+       
+            <div class="row">
+                <div class="col-lg-auto">
+                    <div id="carouselExampleCaptions" class=" my-carousel carousel slide carousel-fade" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -110,13 +115,323 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
-
-       
+                </div>         
+            </div>
     </section>
 
 
 
     <!--Home section end  -->
+
+
+
+    <!-- Features section begin-->
+
+    <section class="features section-padding">
+        <div class="container">
+            <div class="row feature-item">
+                <div class=" col-lg-6 col-md-8">
+                    <div class="features-img">
+                        <img src="Assets/Images/stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" alt="Alternate Text" />
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-7">
+
+                    <div class="section-title">
+                        <h2>Draw our way</h2>
+                    </div>
+
+                    <div class ="features-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row feature-item">
+
+                <div class="col-lg-6 col-md-7">
+
+                    <div class="section-title">
+                        <h2>Draw our way</h2>
+                    </div>
+
+                    <div class ="features-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class=" col-lg-6 col-md-8">
+                    <div class="features-img">
+                        <img src="Assets/Images/stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" alt="Alternate Text" />
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+            <div class="row feature-item">
+                <div class=" col-lg-6 col-md-8">
+                    <div class="features-img">
+                        <img src="Assets/Images/stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" alt="Alternate Text" />
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-7">
+
+                    <div class="section-title">
+                        <h2>Draw our way</h2>
+                    </div>
+
+                    <div class ="features-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Features section end-->
+
+
+
+    <!-- Tools section begin-->
+
+
+
+
+    <section class="tools section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Our Image <span>Tools</span></h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="tools-item">
+                        <img src="Assets/Icons/brush-fill.svg" alt="" />
+                        <h3>Drawing tools</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <a href="#" class="btn btn-1">Try drawing tools</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="tools-item">
+                        <img src="Assets/Icons/camera.svg" alt=""/>
+                        <h3>Passport size photo</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <a href="#" class="btn btn-1">Try drawing tools</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="tools-item">
+                         <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                        <h3>Image Classifier</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <a href="#" class="btn btn-1">Try drawing tools</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Tools section end-->
+
+
+    <!-- Generator section begin-->
+
+
+    <section class="generator section-padding">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-6 col-md-7">
+                    <div class="generator-section-title">
+                        <h2>Draw our way</h2>
+                    </div>
+
+                    <div class ="generator-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class=" col-lg-6 col-md-8">
+                    <div class="generator-img ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <a href="#" class="btn btn-2">Try drawing tools</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="meme-generator section-padding">
+        <div class="container">
+            
+            <div class="row">
+
+                <div class=" col-lg-6 col-md-8">
+                    <div class="meme-generator-img ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <a href="#" class="btn btn-2">Try drawing tools</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-7">
+                    <div class="meme-generator-section-title">
+                        <h2>Draw our way</h2>
+                    </div>
+
+                    <div class ="meme-generator-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </p>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Genrator section end-->
+
+    <!-- FAQ section start-->
+
+    <section class="faq section-padding">
+
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="çol-lg-8">
+                    <div class="section-title">
+                        <h2>Frequently <span>asked questions</span></h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                     <div id="accordion">
+                        <div class="card">
+                          <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne" onclick="this.blur();" onfocus="this.blur();">
+                              Collapsible Group Item #1
+                            </a>
+                          </div>
+                          <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo" onclick="this.blur();" onfocus="this.blur();">
+                            Collapsible Group Item #2
+                          </a>
+                          </div>
+                          <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree" onclick="this.blur();" onfocus="this.blur();">
+                              Collapsible Group Item #3
+                            </a>
+                          </div>
+                          <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FAQ section end-->
+
+
+
+
+
+    <script src="Scripts/owl.carousel.min.js"></script>
 
     <script src="Scripts/bootstrap.bundle.min.js"></script>
     <script src="Scripts/jquery-3.6.0.min.js"></script>
