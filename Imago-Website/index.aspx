@@ -427,6 +427,177 @@
 
     <!-- FAQ section end-->
 
+    <!-- Contact section start-->
+
+    <section class="contact section-padding">
+        <div class=" container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>get in <span>touch</span></h2>
+                    </div>     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="contact-info">
+                        <h3>For any quesries and support </h3>
+                        <div class="contact-info-item">
+                            <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                            <h4>Company Location</h4>
+                            <p>kuet , khulna- 9203</p>
+
+                        </div>
+                        <div class="contact-info-item">
+                            <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                            <h4>Write to us</h4>
+                            <p>info@gmail.com</p>
+
+                        </div>
+                        <div class="contact-info-item">
+                            <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                            <h4>Call us on</h4>
+                            <p>00 11 22 333 444</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="contact-form">
+                        <form action="/" method="post" runat="server">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <asp:TextBox ID="TextBox1" runat="server" placeholder="Your Name" BorderStyle="Outset" CssClass="form-control" TextMode="SingleLine"></asp:TextBox> 
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <asp:TextBox ID="TextBox2" runat="server" placeholder="Your Email" BorderStyle="Outset" CssClass="form-control" TextMode="Email"></asp:TextBox> 
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <asp:TextBox ID="TextBox3" runat="server" placeholder="Your Phone" BorderStyle="Outset" CssClass="form-control" TextMode="Phone"></asp:TextBox>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <asp:TextBox ID="TextBox4" runat="server" placeholder="Subject" BorderStyle="Outset" CssClass="form-control" TextMode="SingleLine"></asp:TextBox>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <asp:TextBox ID="TextBox5" runat="server" placeholder="Your Message" BorderStyle="Outset" CssClass="form-control" TextMode="MultiLine"></asp:TextBox>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <asp:Button ID="Button1" runat="server" Text="Send Message"  CssClass="btn btn-1" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact section end-->
+
+
+    <!-- Footer  start-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>About us</h3>
+                        <p > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col justify-content-center">
+                        <h3>Company</h3>
+                        <ul>
+                            <li> <a href="#">Privacy Policy</a></li>
+                            <li> <a href="#">Terms & Conditions</a></li>
+                            <li> <a href="#">Latest blogs</a></li>
+                            <li> <a href="#">Services</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li> <a href="#">Home</a></li>
+                            <li> <a href="#">Tools</a></li>
+                            <li> <a href="#">Generators</a></li>
+                            <li> <a href="#">Faq</a></li>
+                            <li> <a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-col">
+                        <h3>Social Pages</h3>
+                        <ul>
+                            <li> <a href="#">Facebook</a></li>
+                            <li> <a href="#">Twitter</a></li>
+                            <li> <a href="#">Instagram</a></li>
+                            <li> <a href="#">Linkedin</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="copyright-text">&copy;2021 @ Imago</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Footer end-->
 
 
 
