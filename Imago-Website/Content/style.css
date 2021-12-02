@@ -397,6 +397,15 @@ ul{
     z-index: 9;
 }
 
+.bgcolor.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
 .navbar > .container{
     padding: 15px 0;
 }

@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Imago.master.cs" Inherits="Imago_Website.Imago" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"/>
+    <title>Welcome to Imago</title>
+
+
+    <link rel="stylesheet" href="Content/owl.carousel.min.css"/>
+
+    <!-- bootstrap -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- main css -->
+    <link rel="stylesheet" href="Content/style.css"/>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--Navbar section start  -->
+    
+            <nav class="navbar navbar-expand-md fixed-top bgcolor">
+              <div class="container">
+                <a class="navbar-brand" href="index.aspx">Imago</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.aspx">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tools</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Generator</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Link</a></li>
+                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                      </ul>
+                    </li>  
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sign Up</a>
+                    </li> 
+
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+
+
+            <!--Navbar section end -->
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        
+            <!-- Footer  start-->
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-col">
+                                <h3>About us</h3>
+                                <p > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-col justify-content-center">
+                                <h3>Company</h3>
+                                <ul>
+                                    <li> <a href="#">Privacy Policy</a></li>
+                                    <li> <a href="#">Terms & Conditions</a></li>
+                                    <li> <a href="#">Latest blogs</a></li>
+                                    <li> <a href="#">Services</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-col">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li> <a href="#">Home</a></li>
+                                    <li> <a href="#">Tools</a></li>
+                                    <li> <a href="#">Generators</a></li>
+                                    <li> <a href="#">Faq</a></li>
+                                    <li> <a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-col">
+                                <h3>Social Pages</h3>
+                                <ul>
+                                    <li> <a href="#">Facebook</a></li>
+                                    <li> <a href="#">Twitter</a></li>
+                                    <li> <a href="#">Instagram</a></li>
+                                    <li> <a href="#">Linkedin</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p class="copyright-text">&copy;2021 @ Imago</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+            <!-- Footer end-->
+
+        <script src="Scripts/owl.carousel.min.js"></script>
+
+        <script src="Scripts/bootstrap.bundle.min.js"></script>
+        <script src="Scripts/jquery-3.6.0.min.js"></script>
+        <!-- main script -->
+        <script src="Scripts/main.js"></script>
+
+
+    </form>
+</body>
+</html>
