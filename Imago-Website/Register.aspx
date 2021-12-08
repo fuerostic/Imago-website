@@ -1,0 +1,56 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Imago.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Imago_Website.Register" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <section class="home ">
+
+        <div class="page-holder d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div class="col-5 col-lg-7 mx-auto mb-5 mb-lg-0">
+
+                        <div class="pr-lg-5">
+                            <img src="Assets/Images/visuals-2TS23o0-pUc-unsplash.jpg" alt="" class="img-fluid"/>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 px-lg-4">
+<%-- need to change the color od the login heading --%>
+                        <h1 class="text-base text-primary text-uppercase mb-4">Register Here</h1> 
+                        <h2 class="mb-4">Welcome!</h2>
+
+                        <div class="form-group mb-4">
+                            <asp:TextBox required="true" CssClass="form-control border-0 shadow form-control-lg text-base" placeholder="Your Email" TextMode="Email" runat="server" />
+
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <asp:TextBox required="true" CssClass="form-control border-0 shadow form-control-lg text-base" placeholder="Your Passoword" TextMode="Password" runat="server" />
+
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <div class="custom-control custom-checkbox">
+                                <asp:CheckBox Text="&nbsp&nbsp&nbspRemember Me" runat="server" />
+
+                            </div>
+
+                        </div>
+
+                        <asp:Button Text="REGISTER" CssClass="btn btn-1" runat="server" />
+
+                        <h3 class="h6 text-uppercase mb-0 mt-5">Already have an account?  <a href="Login.aspx">Login here</a> </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        </section>
+</asp:Content>

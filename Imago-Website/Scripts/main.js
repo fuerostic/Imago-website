@@ -4,7 +4,7 @@
 $(document).ready(function () {
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() < $(window).height()) {
+        if ($(window).scrollTop() <= $(".navbar").height()) {
             $(".navbar").css({ "background-color": "transparent" });
         }
         else {

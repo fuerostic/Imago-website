@@ -112,6 +112,58 @@ ul{
 }
 
 
+/*login page*/
+
+.hero-login {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Assets/Images/lance-rae-2QnG_bdhjZU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+#login-box{
+    height:200px;
+    width: 1000px;
+    background-color:#141d31;
+    border-radius:5px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#login-main{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+
+#loginForm,#registerForm{
+    position:absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+    z-index:999;
+}
+
+
+.button-box{
+    width:220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
 /*Tools section*/
 
 .tools-item {
@@ -329,7 +381,7 @@ ul{
 /*footer*/
 
 .footer {
-    background-color:var(--bg-dark);
+    background-color: var(--bg-dark);
     padding: 50px 0 0;
 }
 
@@ -486,6 +538,7 @@ ul{
 
 
 }
+
 
 
 
