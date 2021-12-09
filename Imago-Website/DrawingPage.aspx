@@ -34,8 +34,8 @@
                 </div>
 
                 <div class="actions">
-                    <button id="reset-canvas">Reset</button>
-                    <button id="save-canvas" onclick="save()">Save</button>
+                    <button id="reset-canvas" type="button">Reset</button>
+                    <button id="save-canvas" onclick="save()" type="button">Save</button>
 
                 </div>
 

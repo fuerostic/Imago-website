@@ -9,6 +9,7 @@ const canvas = document.getElementById('c')
 const { x: canvasX, y: canvasY } = canvas.getBoundingClientRect()
 const ctx = canvas.getContext('2d')
 
+
 function changeColor(e) {
     color = this.value;
     ctx.strokeStyle = color;
@@ -21,9 +22,20 @@ function changeSize(e) {
 }
 
 function save() {
-    var canvas = document.getElementById("c");
-    var img = canvas.toDataURL("image/png");
-    document.write('<img src="' + img + '"/>');
+    //var canvas = document.getElementById("c");
+    //var img = canvas.toDataURL("image/png");
+    //document.write('<img src="' + img + '"/>');
+/*    context.drawImage(image, 0, 0, canvas2.width, canvas2.height);*/
+    var jpegUrl = canvas.toDataURL("image/jpg");
+
+    const link = document.createElement("a");
+    document.body.appendChild(link);
+
+    link.setAttribute("href", jpegUrl);
+    link.setAttribute("download", "image");
+    link.click();
+    document.body.removeChild(link);
+
 }
 
 document.getElementById("pen-color").onchange = changeColor;

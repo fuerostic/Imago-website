@@ -7,7 +7,6 @@
     font-family: 'poppins', sans-serif;
 }
 
-
 .main {
     height: 600px;
     width: 80%;
@@ -22,7 +21,6 @@
     margin: 10px auto;
 }
 
-
 /*Tools part*/
 .Tools {
     height: 100%;
@@ -31,69 +29,67 @@
     background: rgba(255, 255, 255, 0.05);
 }
 
-.Tools ul {
-list-style: none;
-padding-left:0px;
-}
+    .Tools ul {
+        list-style: none;
+        padding-left: 0px;
+    }
 
-.Tools ul li {
-width: 100%;
-height: 100px;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-cursor: pointer;
-transition: 0.4s;
-}
+        .Tools ul li {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            cursor: pointer;
+            transition: 0.4s;
+        }
 
-.Tools ul .active_option {
-background: rgba(255, 255, 255, 0.1);
-}
+        .Tools ul .active_option {
+            background: rgba(255, 255, 255, 0.1);
+        }
 
-.Tools ul .active_option p {
-    opacity: 1;
-    margin-top: 8px;
-}
+            .Tools ul .active_option p {
+                opacity: 1;
+                margin-top: 8px;
+            }
 
-.Tools ul .active_option img {
-    color: #FF7043;
-}
+            .Tools ul .active_option img {
+                color: #FF7043;
+            }
 
-.Tools ul li img {
-color: rgba(255, 255, 255, 0.5);
-margin-top: 10px;
-font-size: 2em;
-            
-}
+        .Tools ul li img {
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 10px;
+            font-size: 2em;
+        }
 
-.Tools ul li:hover img {
-color: #FF7043;
-}
+        .Tools ul li:hover img {
+            color: #FF7043;
+        }
 
-.Tools ul li:hover {
-background: rgba(255, 255, 255, 0.1);
-}
+        .Tools ul li:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
 
-.Tools ul li:hover p {
-    opacity: 1;
-    margin-top: 8px;
-}
+            .Tools ul li:hover p {
+                opacity: 1;
+                margin-top: 8px;
+            }
 
-.Tools ul li p {
-opacity: 0;
-font-size: 13px;
-color: rgba(255, 255, 255, 0.5);
-}
+        .Tools ul li p {
+            opacity: 0;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.5);
+        }
 
 .icon {
     filter: brightness(0) invert(1);
 }
 
-.icon:hover , .icon:focus {
-    filter: invert(0.5);
-}
-
+    .icon:hover, .icon:focus {
+        filter: invert(0.5);
+    }
 
 /*content part */
 .content {
@@ -149,12 +145,10 @@ p#hint {
     display: none;
 }
 
-
 /*canvas */
 #image_canvas {
     display: none;
 }
-
 
 /*image holder part*/
 .image_holder {
@@ -164,27 +158,26 @@ p#hint {
     height: 80%;
 }
 
-.image_holder img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
-}
+    .image_holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
 
-.image_holder button {
-    position: absolute;
-    display: none;
-    top: -30px;
-    left: 0px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: #FF7043;
-    font-size: 1.8em;
-    background: none;
-    transform: rotate(270deg);
-}
-
+    .image_holder button {
+        position: absolute;
+        display: none;
+        top: -30px;
+        left: 0px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: #FF7043;
+        font-size: 1.8em;
+        background: none;
+        transform: rotate(270deg);
+    }
 
 /*options part */
 .options {
@@ -200,22 +193,22 @@ p#hint {
     background: rgba(255, 255, 255, 0.05);
 }
 
-.options .active_controller {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-}
+    .options .active_controller {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
 
 .option {
     display: none;
 }
 
-.option p {
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.5);
-}
+    .option p {
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.5);
+    }
 
 /*Range slider*/
 input[type="range"] {
@@ -224,7 +217,6 @@ input[type="range"] {
     cursor: pointer;
     outline: none;
 }
-
 
 /*clear or reset btn */
 #clearAll {
@@ -246,10 +238,6 @@ input[type="range"] {
     box-shadow: 0.1px 4px 8px 5px rgba(0, 0, 0, 0.1);
 }
 
-#clearAll span {
-    margin-right: 10px;
-}
-
-
-/*By DevIdeas*/
-
+    #clearAll span {
+        margin-right: 10px;
+    }
