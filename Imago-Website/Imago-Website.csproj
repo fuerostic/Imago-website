@@ -116,6 +116,7 @@
     <Content Include="Content\DrawingToolsStyle.css" />
     <Content Include="Content\ImageEditor.css" />
     <Content Include="Content\ImageResizer.css" />
+    <Content Include="Content\MemeGenerator.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
@@ -133,9 +134,11 @@
     <Content Include="DrawingPage.aspx" />
     <Content Include="ImageEditor.aspx" />
     <Content Include="ImageResizer.aspx" />
+    <Content Include="MemeGenerator.aspx" />
     <None Include=".bin\node.cmd" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\DrawingTool.js" />
+    <Content Include="Scripts\fabric.js" />
     <Content Include="Scripts\ImageEditor.js" />
     <Content Include="Scripts\ImageResizer.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
@@ -145,6 +148,7 @@
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\MemeGenerator.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\p5.min.js" />
     <Content Include="Web.config" />
@@ -209,6 +213,13 @@
     </Compile>
     <Compile Include="ImageResizer.aspx.designer.cs">
       <DependentUpon>ImageResizer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemeGenerator.aspx.cs">
+      <DependentUpon>MemeGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemeGenerator.aspx.designer.cs">
+      <DependentUpon>MemeGenerator.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
