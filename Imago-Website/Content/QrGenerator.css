@@ -1,0 +1,32 @@
+﻿
+
+.qrbox{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+    width:300px;
+}
+
+img{
+    height:300px;
+    width: 300px;
+    padding: 1rem;
+    border: 2px solid #000000;
+    border-radius: 0.5rem;
+    grid-column: 1 / -1;
+}
+
+textarea{
+    outline: none;
+    height:100px;
+    width:300px;
+    padding:1rem;
+    border: 2px solid #000000;
+    border-radius: 0.5rem;
+    grid-column: 1 / -1;
+    resize:none;
+}
+
+#qrcode{
+    display:none;
+}

@@ -89,6 +89,7 @@
     <Content Include="Assets\Images\lance-rae-2QnG_bdhjZU-unsplash.jpg" />
     <Content Include="Assets\Images\nathaniel-shuman-vZvNSeXzmwY-unsplash.jpg" />
     <Content Include="Assets\Images\nicholas-santoianni-MachUfxQyZw-unsplash.jpg" />
+    <Content Include="Assets\Images\qr-code-linear-icon-modern-outline-logo-concept-whit-white-background-e-commerce-payment-collection-suitable-use-133518035.jpg" />
     <Content Include="Assets\Images\stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" />
     <Content Include="Assets\Images\thom-masat-h2ZTEoRz0wY-unsplash.jpg" />
     <Content Include="Assets\Images\visuals-2TS23o0-pUc-unsplash.jpg" />
@@ -118,6 +119,7 @@
     <Content Include="Content\ImageResizer.css" />
     <Content Include="Content\MemeGenerator.css" />
     <Content Include="Content\owl.carousel.min.css" />
+    <Content Include="Content\QrGenerator.css" />
     <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
@@ -135,6 +137,7 @@
     <Content Include="ImageEditor.aspx" />
     <Content Include="ImageResizer.aspx" />
     <Content Include="MemeGenerator.aspx" />
+    <Content Include="QrCodeGenerator.aspx" />
     <None Include=".bin\node.cmd" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\DrawingTool.js" />
@@ -151,6 +154,8 @@
     <Content Include="Scripts\MemeGenerator.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\p5.min.js" />
+    <Content Include="Scripts\qrcode.min.js" />
+    <Content Include="Scripts\QrGenerator.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +225,13 @@
     </Compile>
     <Compile Include="MemeGenerator.aspx.designer.cs">
       <DependentUpon>MemeGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QrCodeGenerator.aspx.cs">
+      <DependentUpon>QrCodeGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QrCodeGenerator.aspx.designer.cs">
+      <DependentUpon>QrCodeGenerator.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
