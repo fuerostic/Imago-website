@@ -65,10 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Icons\brush-fill.svg" />
+    <Content Include="Assets\Icons\bx-crop.svg" />
     <Content Include="Assets\Icons\bx-export.svg" />
     <Content Include="Assets\Icons\bx-reset.svg" />
     <Content Include="Assets\Icons\bxs-brightness-half.svg" />
     <Content Include="Assets\Icons\bxs-brush.svg" />
+    <Content Include="Assets\Icons\bxs-camera.svg" />
     <Content Include="Assets\Icons\bxs-collection.svg" />
     <Content Include="Assets\Icons\bxs-color-fill.svg" />
     <Content Include="Assets\Icons\bxs-image-add.svg" />
@@ -113,6 +115,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\DrawingToolsStyle.css" />
     <Content Include="Content\ImageEditor.css" />
+    <Content Include="Content\ImageResizer.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
@@ -129,10 +132,12 @@
     <Content Include="Register.aspx" />
     <Content Include="DrawingPage.aspx" />
     <Content Include="ImageEditor.aspx" />
+    <Content Include="ImageResizer.aspx" />
     <None Include=".bin\node.cmd" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\DrawingTool.js" />
     <Content Include="Scripts\ImageEditor.js" />
+    <Content Include="Scripts\ImageResizer.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.js" />
@@ -197,6 +202,13 @@
     </Compile>
     <Compile Include="ImageEditor.aspx.designer.cs">
       <DependentUpon>ImageEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageResizer.aspx.cs">
+      <DependentUpon>ImageResizer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageResizer.aspx.designer.cs">
+      <DependentUpon>ImageResizer.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
