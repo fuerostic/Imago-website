@@ -81,6 +81,7 @@
     <Content Include="Assets\Icons\camera.svg" />
     <Content Include="Assets\Icons\file-earmark-person.svg" />
     <Content Include="Assets\Images\angela-pencheva-t7OJtdwNFKw-unsplash.jpg" />
+    <Content Include="Assets\Images\classification-icon-thin-linear-outline-isolated-white-background-general-collection-line-vector-sign-symbol-web-165502102.jpg" />
     <Content Include="Assets\Images\danbo-1206478_1920.jpg" />
     <Content Include="Assets\Images\dea-piratedea-e9KxYQl2L3c-unsplash.jpg" />
     <Content Include="Assets\Images\elnaz-asadi-N1gqDai6A08-unsplash.jpg" />
@@ -114,6 +115,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Classifier.css" />
     <Content Include="Content\DrawingToolsStyle.css" />
     <Content Include="Content\ImageEditor.css" />
     <Content Include="Content\ImageResizer.css" />
@@ -138,8 +140,10 @@
     <Content Include="ImageResizer.aspx" />
     <Content Include="MemeGenerator.aspx" />
     <Content Include="QrCodeGenerator.aspx" />
+    <Content Include="ImageClassifier.aspx" />
     <None Include=".bin\node.cmd" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\Classifier.js" />
     <Content Include="Scripts\DrawingTool.js" />
     <Content Include="Scripts\fabric.js" />
     <Content Include="Scripts\ImageEditor.js" />
@@ -152,6 +156,7 @@
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\MemeGenerator.js" />
+    <Content Include="Scripts\ml5.min.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\p5.min.js" />
     <Content Include="Scripts\qrcode.min.js" />
@@ -232,6 +237,13 @@
     </Compile>
     <Compile Include="QrCodeGenerator.aspx.designer.cs">
       <DependentUpon>QrCodeGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageClassifier.aspx.cs">
+      <DependentUpon>ImageClassifier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageClassifier.aspx.designer.cs">
+      <DependentUpon>ImageClassifier.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
