@@ -36,24 +36,31 @@
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tools</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Link</a></li>
-                        <li><a class="dropdown-item" href="#">Another link</a></li>
-                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        <li><a class="dropdown-item" href="DrawingPage.aspx">Drawing Tool</a></li>
+                        <li><a class="dropdown-item" href="ImageEditor.aspx">Image Editor</a></li>
+                        <li><a class="dropdown-item" href="ImageResizer.aspx">Image Resizer</a></li>
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Generator</a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Link</a></li>
-                        <li><a class="dropdown-item" href="#">Another link</a></li>
-                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                        <li><a class="dropdown-item" href="QrCodeGenerator.aspx">QR code generator</a></li>
+                        <li><a class="dropdown-item" href="MemeGenerator.aspx">Meme Generator</a></li>
                       </ul>
                     </li>  
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item">
+
+                    <li class="nav-item" runat="server" id="loginNav">
                       <a class="nav-link" href="Login.aspx">Login</a>
+                    </li>
+                    <li class="nav-item dropdown" runat="server" id="logoutDropdown">
+                      <a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown" id="username_placeholder" runat="server">items</a>
+                      <ul class="dropdown-menu">
+<%--                        <li><a class="dropdown-item" href="#" runat="server" id="profileView">Profile</a></li>               --%>
+                        <li> <asp:Button Text="Logout" runat="server" CssClass="dropdown-item" id="LogoutBtn" Font-Strikeout="False" OnClick="LogoutBtn_Click" /></li>
+                      </ul>
                     </li>
 
                   </ul>
@@ -100,11 +107,11 @@
                             <div class="footer-col">
                                 <h3>Quick Links</h3>
                                 <ul>
-                                    <li> <a href="#">Home</a></li>
-                                    <li> <a href="#">Tools</a></li>
-                                    <li> <a href="#">Generators</a></li>
-                                    <li> <a href="#">Faq</a></li>
-                                    <li> <a href="#">Contact</a></li>
+                                    <li> <a href="Home.aspx">Home</a></li>
+                                    <li> <a href="#tools">Tools</a></li>
+                                    <li> <a href="#generators">Generators</a></li>
+                                    <li> <a href="#faq">Faq</a></li>
+                                    <li> <a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
 
@@ -113,10 +120,10 @@
                             <div class="footer-col">
                                 <h3>Social Pages</h3>
                                 <ul>
-                                    <li> <a href="#">Facebook</a></li>
-                                    <li> <a href="#">Twitter</a></li>
-                                    <li> <a href="#">Instagram</a></li>
-                                    <li> <a href="#">Linkedin</a></li>
+                                    <li> <a href="www.facebook.com">Facebook</a></li>
+                                    <li> <a href="www.twitter.com">Twitter</a></li>
+                                    <li> <a href="www.instagram.com">Instagram</a></li>
+                                    <li> <a href="www.linkedin.com">Linkedin</a></li>
                                 </ul>
                             </div>
 
@@ -126,7 +133,7 @@
                     <div class="">
                         <div class="row">
                             <div class="col-lg-12">
-                                <p class="copyright-text">&copy;2021 @ Imago</p>
+                                <p class="copyright-text">&copy;2022 @ Imago</p>
                             </div>
 
                         </div>

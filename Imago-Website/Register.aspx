@@ -23,24 +23,24 @@
                         <h2 class="mb-4">Welcome!</h2>
 
                         <div class="form-group mb-4">
-                            <asp:TextBox required="true" CssClass="form-control border-0 shadow form-control-lg text-base" placeholder="Your Email" TextMode="Email" runat="server" />
+                            <asp:TextBox required="true" CssClass="form-control border-0 shadow form-control-lg text-base" placeholder="Your Email" TextMode="Email" runat="server" ID="registerMail" />
 
                         </div>
 
                         <div class="form-group mb-4">
-                            <asp:TextBox required="true" CssClass="form-control border-0 shadow form-control-lg text-base" placeholder="Your Passoword" TextMode="Password" runat="server" />
+                            <asp:TextBox required="true" CssClass="form-control border-0 shadow form-control-lg text-base" placeholder="Your Passoword" TextMode="Password" runat="server" ID="registerPass" />
 
                         </div>
 
                         <div class="form-group mb-4">
                             <div class="custom-control custom-checkbox">
-                                <asp:CheckBox Text="&nbsp&nbsp&nbspRemember Me" runat="server" />
+                                <asp:CheckBox Text="&nbsp&nbsp&nbspRemember Me" runat="server" ID="rememberRegister" />
 
                             </div>
 
                         </div>
 
-                        <asp:Button Text="REGISTER" CssClass="btn btn-1" runat="server" />
+                        <asp:Button Text="REGISTER" CssClass="btn btn-1" runat="server" ID="RegisterButton" OnClick="Unnamed4_Click" />
 
                         <h3 class="h6 text-uppercase mb-0 mt-5">Already have an account?  <a href="Login.aspx">Login here</a> </h3>
 

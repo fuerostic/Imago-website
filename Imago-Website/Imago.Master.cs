@@ -11,7 +11,31 @@ namespace Imago_Website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(!string.IsNullOrEmpty(Session["username"] as string))
+            {
+                loginNav.Visible = false;
+                logoutDropdown.Visible = true;
+                username_placeholder.InnerHtml = Session["username"].ToString();
+                System.Diagnostics.Debug.WriteLine("In page load "+ Session["username"]);
 
+            }
+            else
+            {
+                loginNav.Visible = true;
+                logoutDropdown.Visible = false;
+                System.Diagnostics.Debug.WriteLine("In page load" + Session["username"]);
+            }
+        }
+
+
+        protected void LogoutBtn_Click(object sender, EventArgs e)
+        {
+            Session.RemoveAll();
+            ////Session.Abandon();
+            ////Session.Clear();
+            //Session.Remove("username");
+            System.Diagnostics.Debug.WriteLine("After logout " + Session["username"]);
+            Response.Redirect("Home.aspx");
         }
     }
 }

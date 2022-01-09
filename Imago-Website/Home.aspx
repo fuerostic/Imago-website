@@ -156,7 +156,7 @@
 
 
 
-    <section class="tools section-padding">
+    <section class="tools section-padding" id="tools">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -209,7 +209,7 @@
     <!-- Generator section begin-->
 
 
-    <section class="generator section-padding">
+    <section class="generator section-padding" id="generators">
         <div class="container">
             
             <div class="row">
@@ -291,7 +291,7 @@
 
     <!-- FAQ section start-->
 
-    <section class="faq section-padding">
+    <section class="faq section-padding" id="faq">
 
         <div class="container">
             <div class="row justify-content-center">
@@ -361,7 +361,7 @@
 
      <!-- Contact section start-->
 
-    <section class="contact section-padding">
+    <section class="contact section-padding" id="contact">
         <div class=" container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
