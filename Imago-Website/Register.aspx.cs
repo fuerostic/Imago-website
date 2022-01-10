@@ -42,6 +42,20 @@ namespace Imago_Website
             string domain = addr.Host;
             Session["username"] = username;
             Session["mail"] = registerMail.Text;
+            if (rememberRegister.Checked)
+            {
+                HttpCookie cookie = new HttpCookie(registerMail.Text);
+                cookie["username"] = username;
+                cookie.Expires = DateTime.Now.AddDays(30);
+                Response.Cookies.Add(cookie);
+
+            }
+            else
+            {
+                HttpCookie cookie = new HttpCookie(registerMail.Text);
+                cookie["username"] = username;
+                Response.Cookies.Add(cookie);
+            }
             Response.Redirect("Home.aspx");
             Session.RemoveAll();
         }

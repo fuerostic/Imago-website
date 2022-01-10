@@ -11,12 +11,13 @@ namespace Imago_Website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(Session["username"] as string))
+            if(!string.IsNullOrEmpty(Session["username"] as string) )
             {
                 loginNav.Visible = false;
                 logoutDropdown.Visible = true;
                 username_placeholder.InnerHtml = Session["username"].ToString();
-                System.Diagnostics.Debug.WriteLine("In page load "+ Session["username"]);
+                //username_placeholder.InnerHtml = Request.Cookies["username"].Value.ToString();
+                //System.Diagnostics.Debug.WriteLine("In page load "+ Session["username"]);
 
             }
             else
@@ -34,6 +35,8 @@ namespace Imago_Website
             ////Session.Abandon();
             ////Session.Clear();
             //Session.Remove("username");
+            //Response.Cookies["username"].Expires = DateTime.Now.AddDays(-1);
+            //Response.Cookies["mail"].Expires = DateTime.Now.AddDays(-1);
             System.Diagnostics.Debug.WriteLine("After logout " + Session["username"]);
             Response.Redirect("Home.aspx");
         }

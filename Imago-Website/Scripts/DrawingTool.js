@@ -13,11 +13,14 @@ const ctx = canvas.getContext('2d')
 function changeColor(e) {
     color = this.value;
     ctx.strokeStyle = color;
+    document.cookie = 'colour=' + color;
+
 }
 
 function changeSize(e) {
     size = parseInt(this.value);
     ctx.lineWidth = size;
+    document.cookie = 'size=' + size;
 
 }
 
