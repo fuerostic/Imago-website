@@ -32,7 +32,8 @@ function detectImage() {
 
 // result callback function
 function gotResults(err, results) {
-  
+
+    
     mytable.style.display = "block";
     let table = document.createElement('table');
     let headerRow = document.createElement('tr');
@@ -62,6 +63,9 @@ function gotResults(err, results) {
         table.appendChild(row);
     });
 
+    var e = document.querySelector("table");
+    var ch = e.lastElementChild();
+    mytable.parentElement.removeChild(ch);
     mytable.appendChild(table);
 }
 

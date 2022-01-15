@@ -9,14 +9,16 @@ using System.Security.Cryptography;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.IO;
 using System.Text;
+using System.Net;
 using System.Net.Mail;
 
 namespace Imago_Website
 {
     public partial class Register : System.Web.UI.Page
     {
+        protected string mail, credential;
         SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\ImagoDatabase.mdf;Integrated Security=True");
-
+        public static string randomCode,to;
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -24,6 +26,7 @@ namespace Imago_Website
 
         protected void Unnamed4_Click(object sender, EventArgs e)
         {
+            
             string hashed = EncryptString("b14ca5898a4e4133bbce2ea2315a1916", registerPass.Text);
 
             string ins = "Insert into [Table](Email_Id,Password) values ('"+ registerMail.Text+"', '"+hashed+"')";
@@ -31,8 +34,61 @@ namespace Imago_Website
             con.Open();
             com.ExecuteNonQuery();
             con.Close();
-            startSession(registerMail.Text);
+            startVerification();
+
+
             
+        }
+
+        private void startVerification()
+        {
+            get_credential();
+            RegisterHeading.Visible = false;
+            WelcomeText.Visible = false;
+            registerMail.Visible = false;
+            registerPass.Visible = false;
+            rememberRegister.Visible = false;
+            RegisterButton.Visible = false;
+            loginPrompt.Visible = false;
+
+            VerifyHeading.Visible = true;
+            RegVerifyCode.Visible = true;
+            RegVerifyButton.Visible = true;
+
+            System.Diagnostics.Debug.WriteLine("Clicked this verify mail button");
+            string from, pass, messageBody;
+
+            Random rand = new Random();
+            randomCode = (rand.Next(999999)).ToString();
+            MailMessage message = new MailMessage();
+            to = (registerMail.Text).ToString();
+            from = mail;
+            pass = credential;
+            messageBody = "Hello, your email verification code is " + randomCode;
+            message.To.Add(to);
+            message.From = new MailAddress(from);
+            message.Body = messageBody;
+            message.Subject = "Email Verification";
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+            smtp.EnableSsl = true;
+            smtp.Port = 587;
+            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtp.Credentials = new NetworkCredential(from, pass);
+            try
+            {
+                smtp.Send(message);
+                RegSentCode.Visible = true;
+                RegSentCode.ForeColor = System.Drawing.Color.Green;
+                RegSentCode.Text = "Code sent successfully";
+                System.Diagnostics.Debug.WriteLine("Code sent successfully");
+            }
+            catch (Exception ex)
+            {
+                RegCodeVerifyText.Visible = true;
+                RegCodeVerifyText.ForeColor = System.Drawing.Color.Red;
+                RegCodeVerifyText.Text = ex.Message;
+                System.Diagnostics.Debug.WriteLine(ex.Message);
+            }
         }
 
         private void startSession(string s)
@@ -60,6 +116,21 @@ namespace Imago_Website
             Session.RemoveAll();
         }
 
+        protected void RegVerifyButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Clicked this verify button");
+            if (randomCode == (RegVerifyCode.Text).ToString())
+            {
+                startSession(registerMail.Text);
+            }
+            else
+            {
+                RegCodeVerifyText.Visible = true;
+                RegCodeVerifyText.ForeColor = System.Drawing.Color.Red;
+                RegCodeVerifyText.Text = "wrong code";
+            }
+        }
+
 
         //private string hashing(string password)
         //{
@@ -81,6 +152,17 @@ namespace Imago_Website
         //    //Console.WriteLine($"Hashed: {hashed}");
         //    return hashed;
         //}
+
+        protected void get_credential()
+        {
+
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\EON\Desktop\creds.txt");
+
+            mail = lines[0];
+            credential = lines[1];
+
+
+        }
 
         public static string EncryptString(string key, string plainText)
         {

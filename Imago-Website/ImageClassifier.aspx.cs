@@ -13,5 +13,10 @@ namespace Imago_Website
         {
 
         }
+
+        protected void ClassifyButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

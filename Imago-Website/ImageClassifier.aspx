@@ -29,7 +29,27 @@
                                 <p>Add Image</p>
                                 <input type="file" id="file" class="form-control" accept="image/*" onchange="detectImage()" >
 <%--                   here we left off             <button></button>--%>
-                            <div id="table">
+                            <asp:Button Text="Run Image Classifier" runat="server" CssClass="btn btn-1" OnClick="ClassifyButton_Click" ID="ClassifyButton" />
+
+                            <div id="table" >
+<%--                                <table>
+                                    <tr>
+                                        <th>Label</th>
+                                        <th>Probability</th>
+                                    </tr>
+                                    <tr>
+                                        <td id="r1c1"></td>
+                                        <td id="r1c2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="r2c1"></td>
+                                        <td id="r2c2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td id="r3c1"></td>
+                                        <td id="r3c2"></td>
+                                    </tr>
+                                </table>--%>
 
                             </div>
                                 

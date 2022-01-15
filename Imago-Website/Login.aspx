@@ -45,6 +45,8 @@
 
                         <asp:Label Text="" runat="server" ID="validationText" />
 
+                        <h3 class="h6 text-uppercase mb-0 mt-5"> <a href="ForgetPass.aspx">Forgot password</a> </h3>
+
                         <h3 class="h6 text-uppercase mb-0 mt-5">Don't have an account?  <a href="Register.aspx">Register here</a> </h3>
                     </div>
 

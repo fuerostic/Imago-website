@@ -170,6 +170,9 @@
     <Content Include="MemeGenerator.aspx" />
     <Content Include="QrCodeGenerator.aspx" />
     <Content Include="ImageClassifier.aspx" />
+    <Content Include="ForgetPass.aspx" />
+    <Content Include="PrivacyPolicy.aspx" />
+    <Content Include="TermsAndConditions.aspx" />
     <None Include=".bin\node.cmd" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -301,6 +304,27 @@
     </Compile>
     <Compile Include="ImageClassifier.aspx.designer.cs">
       <DependentUpon>ImageClassifier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPass.aspx.cs">
+      <DependentUpon>ForgetPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPass.aspx.designer.cs">
+      <DependentUpon>ForgetPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermsAndConditions.aspx.cs">
+      <DependentUpon>TermsAndConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermsAndConditions.aspx.designer.cs">
+      <DependentUpon>TermsAndConditions.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

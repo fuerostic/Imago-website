@@ -25,6 +25,9 @@ namespace Imago_Website
         protected void Unnamed2_Click(object sender, EventArgs e)
         {
             string hashed = EncryptString("b14ca5898a4e4133bbce2ea2315a1916", loginPass.Text);
+            SqlDataAdapter sda = new SqlDataAdapter("select count(*) from [Table] where Email_Id = '" + loginMail.Text + "'and Password = '" + hashed + "' ", con);
+            
+
 
             string check = "select count(*) from [Table] where Email_Id = '"+loginMail.Text+"'and Password = '"+hashed+"' ";
             SqlCommand com = new SqlCommand(check, con);
@@ -40,7 +43,8 @@ namespace Imago_Website
             //    validationText.ForeColor = System.Drawing.Color.Red;
             //    validationText.Text = "Incorrect Email or Password";
             //}
-            //System.Diagnostics.Debug.WriteLine(hashed);
+            System.Diagnostics.Debug.WriteLine(temp);
+            System.Diagnostics.Debug.WriteLine(hashed);
 
             switch (temp)
             {
@@ -52,8 +56,13 @@ namespace Imago_Website
                     validationText.ForeColor = System.Drawing.Color.Red;
                     validationText.Text = "Account has not been activated.";
                     break;
-                default:
+
+                case 1:
                     startSession(loginMail.Text);
+                    break;
+                default:
+                    validationText.ForeColor = System.Drawing.Color.Red;
+                    validationText.Text = "Incorrect Email or Password";
                     break;
             }
         }

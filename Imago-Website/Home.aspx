@@ -8,6 +8,7 @@
 
     <section class="home d-flex">
        
+
             <div class="row">
                 <div class="col-lg-auto">
                     <div id="carouselExampleCaptions" class=" my-carousel carousel slide carousel-fade" data-bs-ride="carousel">
@@ -73,15 +74,14 @@
                 <div class="col-lg-6 col-md-7">
 
                     <div class="section-title">
-                        <h2>Draw our way</h2>
+                        <h2>Draw your imaginataion</h2>
                     </div>
 
                     <div class ="features-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Our drawing tools provides flexible drawing components. If you want to unleash your 
+                            inner artist you can use this tools and create your next masterpiece. Our tool provides 
+                            wide range of colours, strokes and ability to save your work in your local computer.
                         </p>
 
                     </div>
@@ -94,15 +94,15 @@
                 <div class="col-lg-6 col-md-7">
 
                     <div class="section-title">
-                        <h2>Draw our way</h2>
+                        <h2>Redefine your moments</h2>
                     </div>
 
                     <div class ="features-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Our online image editing tool allows you to edit your favourite photos online 
+                            without going through the hassles of installing expensive softwares in your local machine. 
+                            Our image editing tool is equipt with most of the tools for your need, allowing you to 
+                            redefine the moments your dearly hold in your memory.
                         </p>
 
                     </div>
@@ -128,15 +128,14 @@
                 <div class="col-lg-6 col-md-7">
 
                     <div class="section-title">
-                        <h2>Draw our way</h2>
+                        <h2>Classify your image</h2>
                     </div>
 
                     <div class ="features-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Our image classification tool uses artificial intelligence to classify various 
+                            elements exist in the image. This is very useful for recognizing various person or species in 
+                            a single image. Try our classification tool and get amazed. 
                         </p>
 
                     </div>
@@ -172,19 +171,19 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="tools-item">
-                        <img src="Assets/Icons/brush-fill.svg" alt="" />
-                        <h3>Drawing tools</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                        <a href="#" class="btn btn-1">Try drawing tools</a>
+                        <img src="Assets/Icons/brush-fill.svg" alt="Drawing page" />
+                        <h3>Drawing tool</h3>
+                        <p>Use our drawing tool to create any art from your imagination.</p>
+                        <a href="DrawingPage.aspx" class="btn btn-1">Try drawing tools</a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="tools-item">
                         <img src="Assets/Icons/camera.svg" alt=""/>
-                        <h3>Passport size photo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                        <a href="#" class="btn btn-1">Try drawing tools</a>
+                        <h3>Image Editor</h3>
+                        <p>Use this online image editing tool to make your photos more defined.</p>
+                        <a href="ImageEditor.aspx" class="btn btn-1">Try drawing tools</a>
                     </div>
                 </div>
 
@@ -192,8 +191,8 @@
                     <div class="tools-item">
                          <img src="Assets/Icons/file-earmark-person.svg" alt="" />
                         <h3>Image Classifier</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                        <a href="#" class="btn btn-1">Try drawing tools</a>
+                        <p>Use this online image classifier to classify diffrent elements using artificial intelligence. </p>
+                        <a href="ImageClassifier.aspx" class="btn btn-1">Try drawing tools</a>
                     </div>
                 </div>
 
@@ -215,15 +214,13 @@
             <div class="row">
                 <div class="col-lg-6 col-md-7">
                     <div class="generator-section-title">
-                        <h2>Draw our way</h2>
+                        <h2>QR code generator</h2>
                     </div>
 
                     <div class ="generator-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            A QR code is a type of matrix barcode invented in 1994 by the Japanese automotive company Denso Wave. 
+                            A barcode is a machine-readable optical label that can contain information about the item to which it is attached.
                         </p>
 
                     </div>
@@ -231,8 +228,8 @@
 
                 <div class=" col-lg-6 col-md-8">
                     <div class="generator-img ">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                        <a href="#" class="btn btn-2">Try drawing tools</a>
+                        <p>Use QR code generator to generate QR code from text.</p>
+                        <a href="QrCodeGenerator.aspx" class="btn btn-2">Try drawing tools</a>
                     </div>
 
                 </div>
@@ -254,22 +251,21 @@
 
                 <div class=" col-lg-6 col-md-8">
                     <div class="meme-generator-img ">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                        <a href="#" class="btn btn-2">Try drawing tools</a>
+                        <p>Use our meme generator to create memes you desire. </p>
+                        <a href="MemeGenerator.aspx" class="btn btn-2">Try drawing tools</a>
                     </div>
 
                 </div>
                 <div class="col-lg-6 col-md-7">
                     <div class="meme-generator-section-title">
-                        <h2>Draw our way</h2>
+                        <h2>Create memes from your idea</h2>
                     </div>
 
                     <div class ="meme-generator-text">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                            Meme is a verypopular form of entertainment in todays world.
+                            Memes (discrete units of knowledge, gossip, jokes and so on) are to culture what genes are to life. Just as biological evolution is driven by the survival of the fittest genes in the gene pool,
+                            cultural evolution may be driven by the most successful memes.
                         </p>
 
                     </div>
@@ -312,36 +308,36 @@
                         <div class="card">
                           <div class="card-header">
                             <a class="btn" data-bs-toggle="collapse" href="#collapseOne" onclick="this.blur();" onfocus="this.blur();">
-                              Collapsible Group Item #1
+                              Do I need to install any software to use these tools?
                             </a>
                           </div>
                           <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
                             <div class="card-body">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              No. Our tools you can use in this website is completly server side implemented. That means whatever tools you want to use are user ready in server side. You dont require to install any external software other than your browse to use this.
                             </div>
                           </div>
                         </div>
                         <div class="card">
                           <div class="card-header">
                             <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo" onclick="this.blur();" onfocus="this.blur();">
-                            Collapsible Group Item #2
+                            Can I save my modified images after using tools?
                           </a>
                           </div>
                           <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
                             <div class="card-body">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Yes. Our Image editor, Drawing tools, Meme Generator provides functionality to save your image in your local machine. Other than that other features do not contain this fucntion as not required. 
                             </div>
                           </div>
                         </div>
                         <div class="card">
                           <div class="card-header">
                             <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree" onclick="this.blur();" onfocus="this.blur();">
-                              Collapsible Group Item #3
+                              Are these services free of cost?
                             </a>
                           </div>
                           <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
                             <div class="card-body">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              Sure. All of your tools and services are free to use. However, we insist our user to create an account for getting the best experience.
                             </div>
                           </div>
                         </div>
@@ -423,7 +419,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <asp:TextBox ID="TextBox4" runat="server" placeholder="Subject" BorderStyle="Outset" CssClass="form-control" TextMode="MultiLine"></asp:TextBox>
+                                        <asp:TextBox ID="TextBox4" runat="server" placeholder="Subject" BorderStyle="Outset" CssClass="form-control" TextMode="SingleLine"></asp:TextBox>
                                     </div>
 
                                 </div>
@@ -443,7 +439,8 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <asp:Button ID="Button1" runat="server" Text="Send Message"  CssClass="btn btn-1" />
+                                        <asp:Button ID="Button1" runat="server" Text="Send Message"  CssClass="btn btn-1" OnClick="Button1_Click" />
+                                        <asp:Label Text="" runat="server" ID="SentConfirmationText" />
                                     </div>
 
                                 </div>
