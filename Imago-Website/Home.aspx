@@ -67,7 +67,7 @@
             <div class="row feature-item">
                 <div class=" col-lg-6 col-md-8">
                     <div class="features-img">
-                        <img src="Assets/Images/stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" alt="Alternate Text" />
+                        <img src="Assets/Images/angela-pencheva-t7OJtdwNFKw-unsplash.jpg" alt="Alternate Text" />
                     </div>
 
                 </div>
@@ -79,6 +79,9 @@
 
                     <div class ="features-text">
                         <p>
+                            Since the dawn of human civilization, drawing is a mean of expressing deep and complex 
+                            feelings and thoughts that lies in our mind. It is also use to hold moments, capture time 
+                            and showing the world a state that has never been lived. 
                             Our drawing tools provides flexible drawing components. If you want to unleash your 
                             inner artist you can use this tools and create your next masterpiece. Our tool provides 
                             wide range of colours, strokes and ability to save your work in your local computer.
@@ -99,6 +102,9 @@
 
                     <div class ="features-text">
                         <p>
+                            Image is the visual represntation of the moments you cherish and hold dear. The moments 
+                            captured in image my not be smooth all the time. Sometimes some smoothness or light touch of 
+                            editing can express the moment you hold even more spectaculer way.
                             Our online image editing tool allows you to edit your favourite photos online 
                             without going through the hassles of installing expensive softwares in your local machine. 
                             Our image editing tool is equipt with most of the tools for your need, allowing you to 
@@ -110,7 +116,7 @@
 
                 <div class=" col-lg-6 col-md-8">
                     <div class="features-img">
-                        <img src="Assets/Images/stephanie-ronquillo-5ks2TMo2YPE-unsplash.jpg" alt="Alternate Text" />
+                        <img src="Assets/Images/jossuha-theophile-fp3Z_UIoIg8-unsplash.jpg" alt="Alternate Text" />
                     </div>
 
                 </div>
@@ -128,14 +134,17 @@
                 <div class="col-lg-6 col-md-7">
 
                     <div class="section-title">
-                        <h2>Classify your image</h2>
+                        <h2>Resize your image</h2>
                     </div>
 
                     <div class ="features-text">
                         <p>
-                            Our image classification tool uses artificial intelligence to classify various 
-                            elements exist in the image. This is very useful for recognizing various person or species in 
-                            a single image. Try our classification tool and get amazed. 
+                            Image comes in various sizes and dimensions. We need varioous dimensions for various work.
+                            Sometimes we need a picture in a suitable size for our work. Image resizer tool is 
+                            here for your rescue. Our image resizer tool enables you to resize your image in suitable
+                            height and width you need. By using this tool you will be able to resize your image as needed 
+                            and save it to your local computer for use. This resizer tool provides flexiblity in resizing your 
+                            image and provides proper support for your need.
                         </p>
 
                     </div>
@@ -174,7 +183,7 @@
                         <img src="Assets/Icons/brush-fill.svg" alt="Drawing page" />
                         <h3>Drawing tool</h3>
                         <p>Use our drawing tool to create any art from your imagination.</p>
-                        <a href="DrawingPage.aspx" class="btn btn-1">Try drawing tools</a>
+                        <a href="DrawingPage.aspx" class="btn btn-1">Try drawing tool</a>
                     </div>
                 </div>
 
@@ -183,16 +192,16 @@
                         <img src="Assets/Icons/camera.svg" alt=""/>
                         <h3>Image Editor</h3>
                         <p>Use this online image editing tool to make your photos more defined.</p>
-                        <a href="ImageEditor.aspx" class="btn btn-1">Try drawing tools</a>
+                        <a href="ImageEditor.aspx" class="btn btn-1">Try Editing tool</a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="tools-item">
                          <img src="Assets/Icons/file-earmark-person.svg" alt="" />
-                        <h3>Image Classifier</h3>
-                        <p>Use this online image classifier to classify diffrent elements using artificial intelligence. </p>
-                        <a href="ImageClassifier.aspx" class="btn btn-1">Try drawing tools</a>
+                        <h3>Image Resizer</h3>
+                        <p>Use this online image resizer to resize your image in suitable dimension. </p>
+                        <a href="ImageClassifier.aspx" class="btn btn-1">Try Image resizer</a>
                     </div>
                 </div>
 
@@ -229,7 +238,7 @@
                 <div class=" col-lg-6 col-md-8">
                     <div class="generator-img ">
                         <p>Use QR code generator to generate QR code from text.</p>
-                        <a href="QrCodeGenerator.aspx" class="btn btn-2">Try drawing tools</a>
+                        <a href="QrCodeGenerator.aspx" class="btn btn-2">Try QR Code Generator</a>
                     </div>
 
                 </div>
@@ -252,7 +261,7 @@
                 <div class=" col-lg-6 col-md-8">
                     <div class="meme-generator-img ">
                         <p>Use our meme generator to create memes you desire. </p>
-                        <a href="MemeGenerator.aspx" class="btn btn-2">Try drawing tools</a>
+                        <a href="MemeGenerator.aspx" class="btn btn-2">Try Meme Generator</a>
                     </div>
 
                 </div>
@@ -371,19 +380,19 @@
                     <div class="contact-info">
                         <h3>For any quesries and support </h3>
                         <div class="contact-info-item">
-                            <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                            <img src="Assets/Icons/bx-current-location.svg" alt="Location" />
                             <h4>Company Location</h4>
                             <p>kuet , khulna- 9203</p>
 
                         </div>
                         <div class="contact-info-item">
-                            <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                            <img src="Assets/Icons/bxl-gmail.svg" alt="Email" />
                             <h4>Write to us</h4>
                             <p>info@gmail.com</p>
 
                         </div>
                         <div class="contact-info-item">
-                            <img src="Assets/Icons/file-earmark-person.svg" alt="" />
+                            <img src="Assets/Icons/bx-phone.svg" alt="Phone number" />
                             <h4>Call us on</h4>
                             <p>00 11 22 333 444</p>
 

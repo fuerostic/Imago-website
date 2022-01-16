@@ -11,7 +11,14 @@ namespace Imago_Website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(Session["username"] as string) )
+            HttpCookie cookie = Request.Cookies["user"];
+            if (cookie!=null)
+            {
+                loginNav.Visible = false;
+                logoutDropdown.Visible = true;
+                username_placeholder.InnerHtml = cookie["username"].ToString();
+            }
+            else if(!string.IsNullOrEmpty(Session["username"] as string) )
             {
                 loginNav.Visible = false;
                 logoutDropdown.Visible = true;
@@ -32,6 +39,10 @@ namespace Imago_Website
         protected void LogoutBtn_Click(object sender, EventArgs e)
         {
             Session.RemoveAll();
+            if (Request.Cookies["user"] != null)
+            {
+                Response.Cookies["user"].Expires = DateTime.Now.AddDays(-1);
+            }
             ////Session.Abandon();
             ////Session.Clear();
             //Session.Remove("username");

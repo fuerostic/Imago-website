@@ -2,7 +2,7 @@
     " %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
+    <title>Image Editor</title>
     <link href="Content/ImageEditor.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -44,7 +44,7 @@
                         </div>
 
                         <div class="content">
-                            <p id="logo">Photo Editor</p>
+                            <p id="logo">Image Editor</p>
 
                             <div class="choose_image">
                                 <div class="upload_img_box">

@@ -101,8 +101,11 @@
     </Content>
     <Content Include="Assets\Icons\brush-fill.svg" />
     <Content Include="Assets\Icons\bx-crop.svg" />
+    <Content Include="Assets\Icons\bx-current-location.svg" />
     <Content Include="Assets\Icons\bx-export.svg" />
+    <Content Include="Assets\Icons\bx-phone.svg" />
     <Content Include="Assets\Icons\bx-reset.svg" />
+    <Content Include="Assets\Icons\bxl-gmail.svg" />
     <Content Include="Assets\Icons\bxs-brightness-half.svg" />
     <Content Include="Assets\Icons\bxs-brush.svg" />
     <Content Include="Assets\Icons\bxs-camera.svg" />

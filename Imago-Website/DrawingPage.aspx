@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Imago.Master" AutoEventWireup="true" CodeBehind="DrawingPage.aspx.cs" Inherits="Imago_Website.DrawingPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Drawing Tool</title>
     <link href="Content/DrawingToolsStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

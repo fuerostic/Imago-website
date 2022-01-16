@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Imago.Master" AutoEventWireup="true" CodeBehind="ForgetPass.aspx.cs" Inherits="Imago_Website.ForgetPass" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    Password Reset
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
