@@ -27,14 +27,34 @@ namespace Imago_Website
         protected void Unnamed4_Click(object sender, EventArgs e)
         {
             
-            string hashed = EncryptString("b14ca5898a4e4133bbce2ea2315a1916", registerPass.Text);
 
-            string ins = "Insert into [Table](Email_Id,Password) values ('"+ registerMail.Text+"', '"+hashed+"')";
-            SqlCommand com = new SqlCommand(ins, con);
+
+            string hashed = EncryptString("b14ca5898a4e4133bbce2ea2315a1916", registerPass.Text);
+            string check = "select count(*) from [Table] where Email_Id = '" + registerMail.Text + "'";
+            SqlCommand comc = new SqlCommand(check, con);
             con.Open();
-            com.ExecuteNonQuery();
+            int temp = Convert.ToInt32(comc.ExecuteScalar().ToString());
             con.Close();
-            startVerification();
+
+            if (temp == 0)
+            {
+                RegvalidationText.Visible = false;
+                string ins = "Insert into [Table](Email_Id,Password) values ('" + registerMail.Text + "', '" + hashed + "')";
+                SqlCommand com = new SqlCommand(ins, con);
+                con.Open();
+                com.ExecuteNonQuery();
+                con.Close();
+                startVerification();
+            }
+            else
+            {
+                RegvalidationText.Visible = true;
+                RegvalidationText.ForeColor = System.Drawing.Color.Red;
+                RegvalidationText.Text = "User already exists, try login";
+
+            }
+
+            
 
 
             

@@ -3,6 +3,11 @@
 
 $(document).ready(function () {
 
+    $(".nav-item a").on("click", function () {
+        $(".nav-item a").removeClass("active");
+        $(this).addClass("active");
+    });
+
     $(window).scroll(function () {
         if ($(window).scrollTop() <= $(".navbar").height()) {
             $(".navbar").css({ "background-color": "transparent" });
@@ -17,6 +22,8 @@ $(document).ready(function () {
         var $nav = $(".nav");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
+
+    
 
     $('.tools-carousel').owlCarousel({
         loop: true,

@@ -20,25 +20,26 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
 
+                        <img src="Assets/Images/katrin-hauf-kVXrr7x-3Q0-unsplash.jpg" class="d-block w-100" alt="Drawing tool">
                       
-                      <img src="Assets/Images/dea-piratedea-e9KxYQl2L3c-unsplash.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+<%--                        <h1>Draw your imagination</h1>
+                        <p>Use drawing tools to create your work and unleash your creativiy.</p>--%>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="Assets/Images/elnaz-asadi-N1gqDai6A08-unsplash.jpg" class="d-block w-100" alt="...">
+                        <img src="Assets/Images/elnaz-asadi-N1gqDai6A08-unsplash.jpg" class="d-block w-100" alt="Editing tools">
+                      
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+<%--                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>--%>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="Assets/Images/katrin-hauf-kVXrr7x-3Q0-unsplash.jpg" class="d-block w-100" alt="...">
+                      <img src="Assets/Images/dea-piratedea-e9KxYQl2L3c-unsplash.jpg" class="d-block w-100" alt="Generators">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+<%--                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>--%>
                       </div>
                     </div>
                   </div>

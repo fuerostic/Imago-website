@@ -43,6 +43,7 @@
 
                         <asp:Button Text="REGISTER" CssClass="btn btn-1" runat="server" ID="RegisterButton" OnClick="Unnamed4_Click" />
 
+                         <asp:Label Text="" runat="server" ID="RegvalidationText" Visible="false" />
 
                         <h3 class="h6 text-uppercase mb-0 mt-5" runat="server" id="loginPrompt" >Already have an account?  <a href="Login.aspx">Login here</a> </h3>
 
