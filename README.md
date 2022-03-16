@@ -1,6 +1,6 @@
-![GitHub watchers](https://img.shields.io/github/watchers/fuerostic/Imago-website?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/fuerostic/Imago-website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/fuerostic/Imago-website?style=social)
+![GitHub watchers](h 	https://img.shields.io/github/watchers/{fuerostic}/{Imago-website}.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/{fuerostic}/{Imago-website}.svg)
+![GitHub forks](https://img.shields.io/github/forks/{fuerostic}/{Imago-website}.svg)
 
 
 
@@ -15,7 +15,10 @@ This is a web application having various kinds of image tools implemented with A
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
-## Features
+## IDE and Frameworks
+
+
+## Features 
 - Tools
   - Drwaing Tools
   - Image Editor
