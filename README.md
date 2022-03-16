@@ -1,4 +1,4 @@
-![GitHub watchers](h 	https://img.shields.io/github/watchers/{fuerostic}/{Imago-website}.svg)
+![GitHub watchers](https://img.shields.io/github/watchers/fuerostic/Imago-website.svg)
 ![GitHub Repo stars](https://img.shields.io/github/stars/{fuerostic}/{Imago-website}.svg)
 ![GitHub forks](https://img.shields.io/github/forks/{fuerostic}/{Imago-website}.svg)
 
