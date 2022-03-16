@@ -20,6 +20,9 @@ This is a web application having various kinds of image tools implemented with A
 ![Visual studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
+## Compatible operating system
+[Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 ## Features 
 - Authentication
   - Login
@@ -49,3 +52,4 @@ This is a web application having various kinds of image tools implemented with A
 - HTML 5
 - Bootstrap 5
 - jQuery 3.6
+- Microsoft SQL server
