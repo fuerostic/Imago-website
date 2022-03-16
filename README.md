@@ -1,10 +1,10 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/fuerostic/Imago-website.svg)
-![GitHub Repo stars](https://img.shields.io/github/stars/{fuerostic}/{Imago-website}.svg)
-![GitHub forks](https://img.shields.io/github/forks/{fuerostic}/{Imago-website}.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/fuerostic/Imago-website.svg)
+![GitHub forks](https://img.shields.io/github/forks/fuerostic/Imago-website.svg)
 
 
 
-# Imago-website [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+# Imago-website ![License](https://img.shields.io/github/license/fuerostic/Imago-website.svg)
 This is a web application having various kinds of image tools implemented with ASP.NET backend 
 
 ## Languages 
