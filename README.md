@@ -13,10 +13,11 @@ This is a web application having various kinds of image tools implemented with A
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![c#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+
 
 ## IDE and Frameworks
-
+![Visual studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
 ## Features 
 - Tools
@@ -32,6 +33,8 @@ This is a web application having various kinds of image tools implemented with A
 
 
 ## How to use
-
+- Open the project on visual studio
+- Run the project from the nav bar, make sure dependencies are uptodate with the project
+- View the web application using web browserr
 
 ## Dependencies
