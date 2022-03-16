@@ -16,3 +16,24 @@ This is a web application having various kinds of image tools implemented with A
 ![ASP.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 
 ## Features
+- Tools
+  - Drwaing Tools
+  - Image Editor
+  - Image Resizer
+- Generator
+  - QR code generator
+  - Meme Generator
+
+## Gallery
+![image](https://user-images.githubusercontent.com/48018036/158639546-f694f0b7-fd3f-4f05-a8d5-664c86ed0381.png)
+![image](https://user-images.githubusercontent.com/48018036/158639661-ef568839-60da-482d-a995-3dde8212c594.png)
+![image](https://user-images.githubusercontent.com/48018036/158639747-ffb77499-6189-43fd-aac0-8315ff050d9c.png)
+![image](https://user-images.githubusercontent.com/48018036/158639848-0c481ee9-f93f-41b7-b972-bc6d492a2be9.png)
+![image](https://user-images.githubusercontent.com/48018036/158639962-0227cf0f-cd72-4971-b0f4-5acd4338e21d.png)
+![image](https://user-images.githubusercontent.com/48018036/158640196-740db4f5-5d22-4311-b8ec-0ef06f879622.png)
+
+
+## How to use
+
+
+## Dependencies
