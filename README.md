@@ -25,7 +25,7 @@ This is a web application having various kinds of image tools implemented with A
   - Meme Generator
 
 ## Gallery
-![image](https://user-images.githubusercontent.com/48018036/158639546-f694f0b7-fd3f-4f05-a8d5-664c86ed0381.png =350x250)
+[[https://user-images.githubusercontent.com/48018036/158639546-f694f0b7-fd3f-4f05-a8d5-664c86ed0381.png[width=100px]]
 ![image](https://user-images.githubusercontent.com/48018036/158639661-ef568839-60da-482d-a995-3dde8212c594.png =350x250)
 ![image](https://user-images.githubusercontent.com/48018036/158639747-ffb77499-6189-43fd-aac0-8315ff050d9c.png =350x250)
 ![image](https://user-images.githubusercontent.com/48018036/158639848-0c481ee9-f93f-41b7-b972-bc6d492a2be9.png =350x250)
