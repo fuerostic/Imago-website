@@ -4,7 +4,7 @@
 
 
 
-# Imago-website ![license](https://img.shields.io/github/license/{fuerostic}/{Imago-website}.svg)
+# Imago-website [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 This is a web application having various kinds of image tools implemented with ASP.NET backend 
 
 ## Languages 
